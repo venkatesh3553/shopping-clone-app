@@ -1,0 +1,95 @@
+.cart-ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:    center;
+}
+.total-amount-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.remove-all-button{
+    height:46px ;
+    width: 300px;
+    border-radius: 10px;
+    border: 0px;
+    outline: none;
+    color: white;
+    background-color: darkblue;
+    font-family: Roboto;
+}
+.remove-all-button:hover{
+    border: 1px solid darkblue;
+    background-color: transparent;
+    color: darkblue;
+    box-shadow: 0 0 10px darkblue;
+    transition: 2s;
+}
+.totla-head{
+    font-family: Roboto;
+margin-bottom: 0px;
+}
+.amount{
+margin-top: 0px;
+font-size: 20px;
+font-weight: bold;
+font-family: Roboto;
+margin-top: 10px;
+}
+.amount-span{
+    color: gray;
+    font-size: 20px;
+}
+.order-button{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid green;
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+
+}
+.order-button:hover{
+    background-color: green;
+    color: white;
+    box-shadow: 0 0 10px green;
+    transition: 2s;
+}
+@media only screen and (max-width:600px){
+
+    .remove-all-button{
+    height:46px ;
+    width: 100px;
+    border-radius: 10px;
+    border: 0px;
+    outline: none;
+    color: white;
+    background-color: darkblue;
+    font-family: Roboto;
+}
+.remove-all-button:hover{
+    border: 1px solid darkblue;
+    background-color: transparent;
+    color: darkblue;
+    box-shadow: 0 0 10px darkblue;
+    transition: 2s;
+}
+}
+.count{
+    color: red;
+    text-align: right;
+    margin: 0px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+
+}
+.cout-sapn{
+    color: black;
+}

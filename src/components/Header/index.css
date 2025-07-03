@@ -1,0 +1,60 @@
+.Header-bg-container{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px black;
+    transition: 2s;
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    border-radius: 100px;
+
+}
+.header-links-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: wavy;
+}
+.header-names{
+    text-decoration: wavy;
+    display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #475569;
+  font-weight: bold;
+}
+.header-names:hover{
+  color: darkblue;
+  transition: 2s;
+}
+.logout-buttton{
+    font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 10px;
+  padding: 8px 16px;
+  color: #ffffff;
+  background-color: #0967d2;
+  border: none;
+  border-radius: 4px;
+  margin-left: 14px;
+  cursor: pointer;
+  outline: none;
+}
+.logout-buttton:hover{
+  background-color: transparent;
+  border: 1px solid #0967d2;
+  color:  black;
+  box-shadow: 0 0 10px #0967d2;
+  transition: 2s;
+}
+@media only screen and (max-width: 600px) {
+  /* Styles for mobails */
+  .header-links-container{
+    width: 100%;
+  }
+}
