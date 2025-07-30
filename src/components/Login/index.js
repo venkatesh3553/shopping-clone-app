@@ -69,7 +69,7 @@ class Login extends Component{
                         <button className="login-button" type="submit">Login</button>
                         {errorMsg &&<p className="error">Incorrect details* </p>}
                         <p className="hint">You Trail This Website Use This <br/>
-                            USERNAME:rahul , PASSWORD:rahul@20201
+                            USERNAME:rahul , PASSWORD:rahul@2021
                         </p>
                     </form>
 
